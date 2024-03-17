@@ -1,0 +1,17 @@
+{
+    "image": "golang:1",
+    "remoteUser": "alex"
+    // "mounts": [
+    //     {"source": "/Users/alex/.ssh", "target": "/home/alex/.ssh", "type": "bind" }
+    // ]
+    ,"customizations": {
+        "vscode": {
+            "extensions": [
+                "mutantdino.resourcemonitor", 
+                "visualstudioexptteam.vscodeintellicode", 
+                "eamodio.gitlens",
+                "golang.go"
+            ]
+        }
+    }
+}
